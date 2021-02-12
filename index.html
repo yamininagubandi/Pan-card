@@ -43,7 +43,7 @@
             <textarea name ="message"  style="background-color: red;"> Fields marked with * are mandatory.To avoid mistakes please refer <u>guidelines</u> and <u>instructions</u>.</textarea></br>
 </div>
 <table style="width:100%">
-<tr>
+<tr> 
     <th  rowspan ="1" > <span style="color:red;font-weight:bold">*</span> Whether citizen of India &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 <label for="yes">yes </label>
 <input type="radio" name="yes" id="yes" value="yes">&nbsp;&nbsp;
@@ -68,7 +68,7 @@
         <label for="Kumari/Ms">Kumari/Ms</label>
         <input type="radio" id="Kumari/Ms" value="Kumari/Ms"></tr></th>
     <th >
-        <label for="Last Name/Surname">Last Name/Surname</label></br>
+        <label for="Last Name/Surname">Last Name/Surname</label>
         <input type="text" name="Last Name/Surname" id="Last Name/Surname">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
         <label for="First Name">First Name</label>
         <input type="text" name="First Name" id="First Name">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
@@ -192,8 +192,7 @@
     <tr>
         <th>State/Union Territory</th>
         <td>
-            <button type="button">--Please Select-- &nbsp;&nbsp;
-            <select name="country" id="country">
+            <select name="state" id="state">
                     <OPTION VALUE=""> -- Please Select --  &nbsp;&nbsp; </OPTION>   
             </select></td>
     </tr>
@@ -203,8 +202,8 @@
     </tr>
     <tr>
         <th>Country</th>
-        <td><button type ="button"> --Please Select-- &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;     
-             <select name="country" id="country">
+        <td> 
+            <select name="country" id="country">
                     <OPTION VALUE=""> -- Please Select --  &nbsp;&nbsp; </OPTION>   
             </select></td>
     </tr>
@@ -222,10 +221,9 @@
             <span style="color:red;font-weight:bold">*</span> 11. Telephone No.<br/>
               (Country code complusory)</th>
               <td>Country Code(ISD code)
-                 <select name="country" id="country">
+                <select name="country" id="country">
                     <OPTION VALUE=""> -- Please Select --  &nbsp;&nbsp; </OPTION>   
-            </select>
-                </td>
+            </select></td>
     </tr>
     <tr>
         <th>E-mail ID</th>
@@ -279,7 +277,7 @@
         </tr>
         <tr>
             <th>I/We <input type="text"> , the applicant , in the capacity of
-               <select name="country" id="country">
+                <select name="country" id="country">
                     <OPTION VALUE=""> -- Please Select --  &nbsp;&nbsp; </OPTION>   
             </select>
                 do hereby 
@@ -300,17 +298,20 @@ in support of proposed changes/corrections.</th>
             <th>I/We have enclosed<br/>
                 <select name="country" id="country">
                     <OPTION VALUE=""> -- Please Select --  &nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </OPTION>   
-            </select
-                 as proof<br/>
-                    of identity,<select name="country" id="country">
+            </select>as proof<br/>
+                    of identity,
+                    <select name="country" id="country">
+                        <OPTION VALUE=""> -- Please Select --  &nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </OPTION>   
+                </select> 
+                as proof of address,
+                <select name="country" id="country">
                     <OPTION VALUE=""> -- Please Select --  &nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </OPTION>   
-                    </select> as proof of address,
-                        <select name="country" id="country">
-                    <OPTION VALUE=""> -- Please Select --  &nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </OPTION>   
-                    </select> as proof of date of birth and
-                            <select name="country" id="country">
-                    <OPTION VALUE=""> -- Please Select --  &nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </OPTION>   
-                    </select>as proof of PAN alloted.
+            </select>
+                         as proof of date of birth and
+                         <select name="country" id="country">
+                            <OPTION VALUE=""> -- Please Select --  &nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </OPTION>   
+                    </select>
+                             as proof of PAN alloted.
             </th></tr>
             <tr>
                 <th>Whether you wish to have? &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
@@ -343,11 +344,11 @@ in support of proposed changes/corrections.</th>
             </h4>
             <h4><input type="radio" name="name" checked> 
             <label for="DSC">DSC</label>
-                <select name="country" id="country">
+            <select name="country" id="country">
                 <OPTION VALUE=""> -- Select --  &nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </OPTION>   
         </select>
             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-<span style="color:red;font-weight:bold"><u>Guidelines for DSC user</u></span>
+            <span style="color:red;font-weight:bold"><u>Guidelines for DSC user</u></span>
         </h4>
 <h4>Upload Photo &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
